@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Padaria</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Production version -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="/Intersect.png" alt="">
+            <img src="/hop-off.png" alt="">
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <div style="display: flex; gap: 0.6rem;">
+                    <li><a href="#">Doces</a></li>
+                    <li><a href="#">Salgados</a></li>
+                    <li><a href="#">Encomendas</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                </div>
+                <div class="account" style="display: flex;align-items: center;justify-content: center;gap: 0.2rem;">
+                    <li><a href="#">Conta</a></li>
+                    <i style="height: 20;width: 20;" data-lucide="user"></i>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="destaque">
+        <h1>Minha Padaria</h1>
+        <div class="destaque-resumo">
+            <img src="img1.jpg" alt="Imagem da padaria">
+            <p>Na Minha Padaria, a tradição e ...
+            </p>
+        </div>
+
+    </section>
+
+    <section class="cardapio">
+        <div class="sectionTitle">
+            <h2>Cardápio</h2>
+
+            <i data-lucide="square-menu"></i>
+        </div>
+        <img src="padaria02.png" alt="Lanche 1">
+        <h3>Lanches <span> <i data-lucide="hamburger"></i></span></h3>
+        <div class="card">
+            <div class="card-food">
+                <h4>Lanche do Forno</h4>
+                <p>...</p>
+            </div>
+
+            <div class="card-food">
+
+                <div class="card-food">
+                    <h4>Lanche do Forno</h4>
+                    <p>...</p>
+                </div>
+            </div>
+
+            <div class="card-food">
+                <h4>Lanche Clássico</h4>
+                <p>...</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Lanche Bacon & Queijo</h4>
+                <p>...</p>
+            </div>
+
+        </div>
+
+        <h3>Refeições <span> <i data-lucide="utensils"></i></span></h3>
+        <div class="card">
+            <div class="card-food">
+                <h4>Frango Assado com Batatas</h4>
+                <p>...</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Feijoada</h4>
+                <p>...</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Marmita Fit</h4>
+                <p>...</p>
+            </div>
+
+            <div class="card-food">
+                <h4>Strogonoff de Carne</h4>
+                <p>...</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Minha Padaria - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
